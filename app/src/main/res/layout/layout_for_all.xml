@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/nav_bar_dimen"
+        android:background="@color/colorPrimary">
+
+        <LinearLayout
+            android:id="@+id/home_navbar_id"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                style="@style/navbar_icon_style"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="wrap_content"
+                android:src="@drawable/home_icon" />
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/songs_navbar_id"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                style="@style/navbar_icon_style"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="wrap_content"
+                android:src="@drawable/song_icon" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/artists_navbar_id"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                style="@style/navbar_icon_style"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="wrap_content"
+                android:src="@drawable/artist_icon" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/playlists_navbar_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                style="@style/navbar_icon_style"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="wrap_content"
+                android:src="@drawable/playlists_icon" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/description_text_view" />
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/list_for_all"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" />
+
+</LinearLayout>

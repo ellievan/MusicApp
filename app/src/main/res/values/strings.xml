@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">musicapp2</string>
+    <string name="song_title">Song Title</string>
+    <string name="artist_name">Artist Name</string>
+    <string name="song_timer_start">0.00</string>
+    <string name="song_timer_end">2.56</string>
+    <string name="number_of_song">0 songs</string>
+    <string name="playlist_name">Playlist Name</string>
+    <string name="songs">Songs</string>
+    <string name="artists">Artists</string>
+    <string name="playlists">Playlists</string>
+    <string name="payment">Buy New Bundles</string>
+    <string name="home_screen">Home Screen</string>
+    <string name="main_activity_description">MAIN ACTIVITY SCREEN: This screen displays
+        the categories by which users can sort and play their music. When clicking on each of the categories
+        (Music, Artists or Playlists), a new activity with a list of Songs, Artists or Playlists opens.
+        When clicking on the Buy New Bundles button, users are redirected to Paypal where they can purchase new app bundles.</string>
+    <string name="songs_activity_description">
+        SONGS ACTIVITY: This screen shows a list of all the songs on the user\'s device, using a custom ArrayAdapter.
+        When the user clicks on a song, a NowPlaying screen opens, showing details about the song.
+        Placeholder images will be replaced with Album covers.</string>
+    <string name="artists_activity_description">
+        ARTISTS ACTIVITY: This screen shows a list of all the artists on the user\'s phone, using a custom ArrayAdapter.
+        When the user clicks on an artist, the NowPlaying activity opens and the first song of that artist\'s discography starts playing.
+        Placeholder images will be replaced with Artist Pictures.</string>
+    <string name="playlists_activity_description">
+        PLAYLISTS ACTIVITY: This screen shows a list of all playlists.  When the user clicks
+        on an playlist, the NowPlaying activity opens and the first song of that playlist starts playing.
+        Placeholder images will be replaced with Album covers.</string>
+    <string name="nowplaying_activity_description">
+        NOW PLAYING ACTIVITY: This screen shows details of the song that is currently playing including album cover,
+        title, artist name, options to skips to previous/next songs and the length of the song. The user can go back to the Main Activity or the list of songs by pressing the home or list buttons</string>
+    <string name="payment_activity_description">
+        PAYMENT ACTIVITY: Shows a list of extensions that can be added to the App (i.e. : additional bundles of music).
+        When users click on buy now, they can pay using PayPal API https://developer.paypal.com/docs/classic/mobile/ht_mpl-itemPayment-Android/</string>
+    <string name="mosic_bundle_1">Music Bundle 1</string>
+    <string name="buy_now">Buy Now</string>
+</resources>

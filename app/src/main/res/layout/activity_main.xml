@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.example.elena.musicapp2.MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        tools:context="com.example.elena.musicapp2.MainActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/pictureStyle"
+            android:scaleType="fitXY"
+            android:src="@drawable/header_picture_7" />
+
+        <TextView
+            android:id="@+id/songs"
+            android:layout_width="wrap_content"
+            android:text="@string/songs"
+            android:textColor="@color/songColor"
+            style="@style/buttonStyle"
+            android:background="@drawable/round_corners" />
+
+        <TextView
+            android:id="@+id/artists"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/artistColor"
+            android:text="@string/artists"
+            style="@style/buttonStyle"
+            android:background="@drawable/round_corners" />
+
+        <TextView
+            android:id="@+id/playlists"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/playlistsColor"
+            android:text="@string/playlists"
+            style="@style/buttonStyle"
+            android:background="@drawable/round_corners" />
+
+        <TextView
+            android:id="@+id/payment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/purchaseColor"
+            android:text="@string/payment"
+            style="@style/buttonStyle"
+            android:background="@drawable/round_corners" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_activity_description"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</ScrollView>

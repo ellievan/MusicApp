@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:minHeight="@dimen/list_item_height"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_margin="6dp"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height" />
+
+    <LinearLayout
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        style="@style/list_item_style_head"
+        android:id="@+id/song_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:text="Song"
+        android:textColor="@color/nowPlayingTextColor"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <TextView
+        style="@style/list_item_style_body"
+        android:id="@+id/artist_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:text="Artist/No of Songs"
+        android:textColor="@color/secondaryTextolor" />
+
+    </LinearLayout>
+
+</LinearLayout>

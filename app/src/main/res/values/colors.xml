@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="songColor">#FFFF00</color>
+    <color name="artistColor">#18FFFF</color>
+    <color name="playlistsColor">#76FF03</color>
+    <color name="purchaseColor">#536DFE</color>
+    <color name="secondaryTextolor">#F9FBE7</color>
+    <color name="nowPlayingTextColor">#FAFAFA</color>
+
+</resources>
